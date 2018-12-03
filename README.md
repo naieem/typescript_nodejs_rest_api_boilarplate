@@ -8,7 +8,7 @@ This boilarplate is used for creating nodejs rest api using ES6 syntax.
 * Typescript (for ES6 code).
 * Babel (for compiling typescript code).
 
-### Entry File:
+### Folder structure:
 All the files all resided inside src folder.Entry file is 'app.ts' <br>
 Folder structure
 ```
