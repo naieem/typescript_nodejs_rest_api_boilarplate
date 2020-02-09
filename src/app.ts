@@ -38,7 +38,7 @@ class AppBootStrapper {
   };
   bootstrap = () => {
     this.app.listen(Config.serverListeningPort, function() {
-      console.log("connected to port 3000");
+      console.log("connected to port "+Config.serverListeningPort);
     });
   };
   configureDatabase = () => {
