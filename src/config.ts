@@ -1,4 +1,5 @@
 let appConfig = {
-    UserSalt:"$2a$10$pQhPzKLp866v54ZDpiZki."
+    dbConnectionString:"mongodb://localhost/test",
+    serverListeningPort:3005
 }
 export default appConfig;
