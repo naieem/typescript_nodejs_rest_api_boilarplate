@@ -4,6 +4,7 @@ import * as logger from 'morgan';
 import * as cookieParser from 'cookie-parser';
 import HomeRoute from './routes';
 import DBconfig from './dbconfig';
+import Config from "./config";
 class AppBootStrapper {
     app : any;
     constructor() {
@@ -54,7 +55,7 @@ class AppBootStrapper {
     bootstrap = () => {
         this
             .app
-            .listen(3000, function () {
+            .listen(Config.serverListeningPort, function () {
                 console.log('connected to port 3000');
             });
     }
