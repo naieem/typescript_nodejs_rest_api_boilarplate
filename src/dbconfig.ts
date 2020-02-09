@@ -1,8 +1,9 @@
 import * as mongoose from 'mongoose';
+import Config from "./config";
 class DBconfig {
     private connectionTester : any;
     constructor() {
-        mongoose.connect('mongodb://localhost/test');
+        mongoose.connect(Config.dbConnectionString);
         this.connectionTester = mongoose.connection;
         this.connect();
     }
