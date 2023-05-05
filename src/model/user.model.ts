@@ -3,7 +3,7 @@ class UserModel {
     private Schema : any
     constructor() {
         this.Schema = mongoose.Schema;
-        return this.init();
+        this.init();
     }
     init = () => {
         const uSchema = new this.Schema({
