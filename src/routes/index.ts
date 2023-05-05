@@ -11,7 +11,7 @@ class HomeRoute {
         this
             .router
             .get('/', function (req, res, next) {
-                debugger
+                
                 console.log('------------------------------------');
                 console.log('hello world');
                 console.log('------------------------------------');
