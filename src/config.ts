@@ -1,5 +1,5 @@
 let appConfig = {
-    dbConnectionString:"mongodb://localhost/test",
+    dbConnectionString:"mongodb+srv://naieem:1qazZAQ!@naieem.1jjyciu.mongodb.net/test",
     serverListeningPort:3005,
     UserSalt: 'hello world'
 }
