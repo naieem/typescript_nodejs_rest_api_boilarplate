@@ -14,7 +14,7 @@ class AppBootStrapper {
     this.initialSetup();
     this.routeSetup();
     this.bootstrap();
-    this.configureDatabase();
+    // this.configureDatabase();
   }
   initialSetup = () => {
     this.app.use(logger("dev"));
